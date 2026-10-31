@@ -90,26 +90,6 @@ All experiments use the **same prompt and the same random seed (42)**, so only t
 
 ---
 
-## 📊 Results
-
-> Replace the `XX.X` values with the numbers printed in the executed notebook (the timing table in the "Display and compare" cell).
-
-**Generation time (seconds, T4 GPU):**
-
-| Experiment | Setting                              | Time (s) |
-| ---------- | ------------------------------------ | -------- |
-| 1: Steps   | 15 steps                             | XX.X     |
-| 1: Steps   | 30 steps                             | XX.X     |
-| 1: Steps   | 50 steps                             | XX.X     |
-| 2: Guidance | CFG 3                               | XX.X     |
-| 2: Guidance | CFG 7.5                             | XX.X     |
-| 2: Guidance | CFG 12                              | XX.X     |
-| 3: Scheduler | DDIM, 20 steps                     | XX.X     |
-| 3: Scheduler | Euler, 20 steps                    | XX.X     |
-| 3: Scheduler | DPM-Solver++, 20 steps             | XX.X     |
-
-**Graphs / images generated in the notebook:** the basic generated image, the three experiment grids, a combined 3×3 comparison grid, and a plot of generation time vs inference steps.
-
 ### Observations
 
 > Check these against your own generated images and edit any line your results contradict.
